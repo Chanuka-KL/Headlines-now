@@ -1,17 +1,17 @@
-// Fetch API Key and load news
+
 async function kghszo(zkmge = "") {
     try {
-        const response = await fetch('Api.txt'); // Make sure this file is hosted or available in the same directory
-        const jsgeih = await response.text();   // Read the file content
-        const XQKSFI = jsgeih.trim();           // Store the API key
-        rhsvsj(zkmge, XQKSFI);                 // Fetch news with the loaded API key and selected category
+        const response = await fetch('CHANUKA-KL🌟.txt');
+        const jsgeih = await response.text(); 
+        const XQKSFI = jsgeih.trim();          
+        rhsvsj(zkmge, XQKSFI);                 
     } catch (error) {
         console.error("Error fetching jsgeih:", error);
         document.getElementById('frfjs-container').innerHTML = "<p>Failed to load jsgeih. Please try again later.</p>";
     }
 }
 
-// Fetch news from NewsAPI
+
 async function rhsvsj(zkmge = "", XQKSFI) {
     let url = `https://newsapi.org/v2/top-headlines?country=us&pageSize=10&apiKey=${XQKSFI}`;
     if (zkmge) {
