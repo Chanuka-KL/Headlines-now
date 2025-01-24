@@ -1,7 +1,7 @@
 
 async function kghszo(zkmge = "") {
     try {
-        const response = await fetch('CHANUKA-KL🌟.txt');
+        const response = await fetch('Api.txt');
         const jsgeih = await response.text(); 
         const XQKSFI = jsgeih.trim();          
         rhsvsj(zkmge, XQKSFI);                 
